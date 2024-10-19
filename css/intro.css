@@ -1,3 +1,8 @@
+* /*Se aplica en todo*/
+{
+    box-sizing: border-box; /*me considera todos los elementos*/
+
+}
 body
 {
     background-color: #000;
@@ -44,13 +49,74 @@ main
 {
     background-color: #ddd ;
     color: #333;
-    padding: 1rem;
+    
 }
 
 main h2
 {
     margin: 0.2px;
 }
+/*lo de cajas*/
+.hero-panel
+{   
+    position: relative; /*cambia el plano cartesiano*/
+    overflow: hidden;
+    background-color: #21890c;
+    height: 80vh; 
+
+    /* display: inline-block;
+    padding: 1rem;
+    border: dotted 3px #000;
+    border-left: solid 1px #f00;
+    border-right: solid 1px #f00;
+    margin:3rem; /*no se pinta*/
+    /*width: 600px;*/
+}
+.hero-panel img
+ {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+ }
+ .hero-panel div
+ {
+    display:flex;
+    flex-direction: column;
+    position:absolute;
+    top:50%;
+    left:50%; /*GANE 3 BONOS RECORDAR*/
+    background-color: rgba(255,255,255,0.8);
+    padding:1rem;
+    border-radius: 17px ;
+    transform:translateX(-50%) translateY(-50%);
+
+ }
+ .hero-panel div a
+ {
+    align-self: center;
+    display: inline-block;
+    padding:1rem 2rem;
+    border:1px solid #040404;
+    background-color: #d25bca;
+    color: #fff;
+    text-decoration: none;
+    margin:0.5rem auto;
+    box-shadow: 3px 3px 5px #000;
+    border-radius: 47px;
+ }
+
+ .hero-panel div.cuadrante4 /*poner en el cuadrante 4*/
+ {
+    top:75%;
+    left:75%;
+
+ }
+ .hero-panel div.cuadrante2 /*poner en el cuadrante 2*/
+ {
+    top:25%;
+    left:75%;
+
+ }
 a
  {
         
