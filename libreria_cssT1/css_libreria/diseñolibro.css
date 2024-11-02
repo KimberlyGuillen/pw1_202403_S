@@ -1,0 +1,150 @@
+* /*Se aplica en todo*/
+{
+    box-sizing: border-box; /*me considera todos los elementos*/
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body
+{
+    background-color: #2d082d;
+    color: #f7f6f7;
+    margin:0px;
+    padding: 0px;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+header img
+{
+    width: 48px;
+    height: 48px;
+    border-radius: 30%;
+   
+}
+
+header h1   
+{
+    margin: 0.5rem 1rem;
+}
+
+
+
+header nav ul
+{
+    display: flex;
+    list-style: none;
+    margin:0px;
+    margin-right: 1rem;
+    
+}
+
+header nav ul li a
+{
+    display:block;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    color: #ddd;
+    transition: background-color 1s ease;
+}
+
+header nav ul li a:hover
+{
+    background-color: #5b595a;
+    color: #f5f1f1;
+}
+
+main
+{
+    background-color: #2d082d;
+    color: #faf3f3;
+    
+}
+main h2
+{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+main p
+{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.hero-panel {
+    
+    height: 90vh; /* 90% de la altura del viewport */ 
+    position: relative; /*cambia el plano cartesiano*/
+    overflow: hidden;
+    background-color: #323030c9;
+    
+}
+
+.hero-panel img
+ {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+ }
+
+
+ .tarjetas
+ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #320632;
+    padding: 20px;
+    border-radius: 60px ;
+    box-shadow: 3px 3px 15px #140303;
+    margin-block: 25px;
+ }
+
+ .tar 
+ {
+    background-color: #5f585b;
+    padding: 1rem;
+    border-radius: 17px;
+    width: 300px;
+    height: auto;
+    margin:10px;
+    transition: background-color 1s ease;
+    
+}
+.tar h3
+{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+ .tar img 
+ {
+    width: 300px;
+    height: 220px;
+    border-radius: 13px;
+    
+ }
+aside h3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ aside nav ul li a
+ {
+    display:block;
+    align-items: center;
+    list-style: none;
+    margin-right: 1rem;
+    color:#f3eeee;
+    padding: 1rem 0.5rem;
+ }
+
+ 
+ 
+ 

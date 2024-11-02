@@ -1,63 +1,92 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    
-    <meta charset="utf-8"/>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introducción a css</title>
-    <link rel="stylesheet" href="css/intro.css"/>
-    <!---<style>
-        a 
-        {
-            color: green;
-            background-color: #333;
-            text-decoration: line-through;
-        }
-    </style>-->
+    <title>Intro A Css</title>
+    <link rel="stylesheet" href="css/intro.css" />
 </head>
+
 <body>
     <header>
         <h1>Introducción a CSS</h1>
         <nav>
             <ul>
-        <li><a href="#">Texto</a></li>
-        <li><a href="#">Typografia</a></li>
-        <li><a href="#">Layouts</a></li>
-        <li><a href="#">Responsive Design</a></li>
+                <li><a href="#">Texto</a></li>
+                <li><a href="#">Typografía</a></li>
+                <li><a href="#">Layouts</a></li>
+                <li><a href="#">Responsive Design</a></li>
             </ul>
-    </nav>
+        </nav>
     </header>
-
     <main>
-        <section class="hero-panel">
-                <picture>
-                    <source srcset="https://picsum.photos/200/300" media="(min-width:1025px)">
-                    <source srcset="https://piscum.photos/800/600" media="(min-width:720px)">
-                    <img src="https://piscum.photos/400/400" alt="hero-panel">  
-                </picture>
-                <div class="cuadrante2"> <!--- cambiar de cuadrante mediante clases, si se quisiera en el 4 solo se pone cuadrante4 -->
-                   <h2>Suculentas Care 2.0</h2> 
-                   <a href=#>Registrate Aquí</hrefs>
-                </div>
-                
-        </section>
-        <section>
 
-        </sectio>
+        <section class="hero-panel">
+            <picture>
+                <source srcset="https://picsum.photos/1300/720" media="(min-width:1025px)">
+                <source srcset="https://picsum.photos/800/600" media="(min-width:720px)">
+                <img src="https://picsum.photos/400/400" alt="Imagen de prueba">
+            </picture>
+            <div class="cuadrante2">
+                <h2>Suculentas Care 2.0</h2>
+                <a href="#">Registrate Aquí</a>
+            </div>
+
+        </section>
+        <section class="Precios">
+            <div class="card">
+                <img src="https://picsum.photos/id/50/200/200" alt="Imagen de prueba">
+                <h3>Plan Básico</h3>
+                <p>Este es un plan básico</p>
+                <a href="#">Comprar</a>
+                <div class="precio">$25.00</div>
+            </div>
+            <div class="card highlighted">
+                <img src="https://picsum.photos/id/250/200/200" alt="Imagen de prueba">
+                <h3>Plan Intermedio</h3>
+                <p>Este es un plan intermedio</p>
+                <a href="#">Comprar</a>
+                <div class="precio">$50.00</div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/id/145/200/200" alt="Imagen de prueba">
+                <h3>Plan Premium</h3>
+                <p>Este es un plan premium</p>
+                <a href="#">Comprar</a>
+                <div class="precio">$100.00</div>
+            </div>
+        </section>
         <h2>Solo para relleno</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque illo obcaecati qui sed consequatur recusandae, sunt ab voluptatibus corporis reiciendis eveniet voluptate, distinctio deleniti suscipit sapiente? Omnis iure laudantium eveniet.</p>
-    <ul>
-        <li>Punto 1</li>
-        <li>Punto 2</li>
-        <li>Punto 3</li>
-    </ul>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa molestiae cum dicta, suscipit accusamus
+            repellendus a non eligendi minima esse error et consectetur illo similique tempora ipsam veritatis optio
+            debitis.
+        </p>
+        <ul>
+            <li>Punto 1</li>
+            <li>Punto 2</li>
+            <li>Punto 3</li>
+        </ul>
     </main>
     <aside>
         <nav>
-            <li><a href="https://facebook.com">Facebook</a></li>
-            <li><a href="https://whatsapp.com">whatsapp</a></li>
-            <li><a href="https://youtube.com">youtube</a></li>
+            <ul>
+                <li><a href="https://facebook.com">Facebook</a></li>
+                <li><a href="https://whatsapp.com">Whatsapp</a></li>
+                <li><a href="https://youtube.com">Youtube</a></li>
+            </ul>
+            <div>Hola</div>
         </nav>
+    </aside>
+    <aside class="full-progress">
+        <div class="progress3"></div>
+    </aside>
+    <aside class="full-progress2">
+        <div class="progress2"></div>
+    </aside>
+    <aside class="full-progress3">
+        <div class="progress"></div>
     </aside>
 </body>
 </html>
